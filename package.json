@@ -2,12 +2,15 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/ElzaSkarlet/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/ElzaSkarlet/frontend-project-44/actions)",
+  "bin": {
+    "nodejs-package": "bin/nodejs-package.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "git+https://github.com/ElzaSkarlet/frontend-project-44.git"
   },
   "author": "",
